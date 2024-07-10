@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-Do list</title>
+
+	<link rel="stylesheet" href="todo.css" />
+</head>
+<body>
+
+	<header>
+		<center><h1><u>To-Do list</u></h1></center>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+				
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+		
+	</header>
+	<main>
+		<section class="task-list">
+			<center><h2>Tasks</h2></center>
+
+			<div id="tasks"> 
+			</div>
+		</section>
+	</main>
+
+	<script src="todo.js"></script>
+</body>
+</html>
